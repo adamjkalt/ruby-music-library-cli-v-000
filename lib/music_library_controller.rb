@@ -40,6 +40,7 @@ until user == "exit"
 user = gets.chomp
 end
 end
+end
 
 def list_songs
   Song.all.sort_by {|song| song.name}.each_with_index do |song, index|
