@@ -36,9 +36,9 @@ elsif user == "list genre"
 elsif user == "play song"
   play_song
   user = gets.chomp
+end
 until user == "exit"
 user = gets.chomp
-end
 end
 end
 
